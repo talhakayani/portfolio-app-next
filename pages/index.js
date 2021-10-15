@@ -16,15 +16,7 @@ export default function Home({ intro }) {
       <Head>
         <title>{intro.profile.name}</title>
       </Head>
-      <div className="container">
-        <div style={{ gridColumn: 1, gridRow: 1 / 2 }}>
-          <Intro profile={intro.profile} />
-        </div>
-        <div style={{ gridColumn: 2, gridRow: 1 }}>
-          <SocialMedia socialMedia={intro.socialMedia} />
-        </div>
-        <IntroSocial intro={intro} />
-      </div>
+      <IntroSocial intro={intro} />
     </>
   );
 }

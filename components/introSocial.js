@@ -1,5 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
+import Intro from './intro';
+import SocialMedia from './social-media';
 
 const getDisplay = arr => {
   const data = arr.map(project => {
@@ -7,7 +9,7 @@ const getDisplay = arr => {
       <div
         key={project.id}
         className="container-div "
-        style={{ backgroundColor: project.backgroundColor }}
+        style={{ backgroundColor: project.backgroundColor, marginTop: '1rem' }}
       >
         <div className="title-container">
           <h3 className="project-title">{project.name}</h3>
@@ -43,8 +45,16 @@ const IntroSocial = ({ intro }) => {
 
   return (
     <>
-      <div style={{ gridColumn: 1, gridRow: 3 }}>{getDisplay(odd)}</div>
-      <div style={{ gridColumn: 2, gridRow: 2 / 3 }}>{getDisplay(even)}</div>
+      <div className="container">
+        <div>
+          <Intro profile={intro.profile} />
+        </div>
+        <div>
+          <SocialMedia socialMedia={intro.socialMedia} />
+        </div>
+        <div style={{ gridColumn: 1, gridRow: 2 }}>{getDisplay(odd)}</div>
+        <div style={{ gridColumn: 2, gridRow: 2 }}> {getDisplay(even)}</div>
+      </div>
     </>
   );
 };
