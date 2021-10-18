@@ -41,39 +41,6 @@
         "shortDescription": "InvoMeet Rooms Reservation system will help the employees of InvoZone to reserve the rooms for their meeting inside InvoZone office.",
         "description": "InvoMeet Rooms Reservation system will help the employees of InvoZone to reserve the rooms for their meeting inside InvoZone office. This project is assigned to me as a starter project at InvoZone during my training session. The project is basically a SLACK bot that will be controlled using slash-commands. I've focused on more user interactivity with the SLACK Bots. For the meeting reservation, the bot will need the room name date time, and attendees all this information is provided to the command submitting the form. Once the user submits the form then the bot will automatically reserve that room for 1 hour for that particular user and also no one else can reserve the room during that time. So, time management also is managed in this application. The bot also creates a Google Calendar event for that particular meeting also sends email notifications to the attendees and organizer. The meeting will automatically be ended when the ending time reaches. There is an option available to cancel/end meeting at any time",
         "role": "Developer"
-      },
-      {
-        "id": 3,
-        "backgroundColor": "rgb(214, 231, 255)",
-        "name": "InvoMeet Rooms Reservation",
-        "startDate": "Nov 1, 2021",
-        "endDate": "Nov 31, 2021",
-        "organization": "InvoZone",
-        "tools": [
-          "Node.js",
-          "JavaScript",
-          "Postgres",
-          "Sequelize",
-          "Express",
-          "Slack",
-          "Google APIs",
-          "Unit Testing"
-        ],
-        "shortDescription": "InvoMeet Rooms Reservation system will help the employees of InvoZone to reserve the rooms for their meeting inside InvoZone office.",
-        "description": "InvoMeet Rooms Reservation system will help the employees of InvoZone to reserve the rooms for their meeting inside InvoZone office. This project is assigned to me as a starter project at InvoZone during my training session. The project is basically a SLACK bot that will be controlled using slash-commands. I've focused on more user interactivity with the SLACK Bots. For the meeting reservation, the bot will need the room name date time, and attendees all this information is provided to the command submitting the form. Once the user submits the form then the bot will automatically reserve that room for 1 hour for that particular user and also no one else can reserve the room during that time. So, time management also is managed in this application. The bot also creates a Google Calendar event for that particular meeting also sends email notifications to the attendees and organizer. The meeting will automatically be ended when the ending time reaches. There is an option available to cancel/end meeting at any time",
-        "role": "Developer"
-      },
-      {
-        "id": 4,
-        "backgroundColor": "rgb(255, 214, 214)",
-        "name": "Automated Attendance System (Multiple face recognition)",
-        "startDate": "Oct 15, 2019",
-        "endDate": "Oct 15, 2020",
-        "organization": "COMSATS University Islamabad",
-        "tools": ["Android", "Java", "Python", "PHP", "Unit Testing"],
-        "description": "Automated Attendance System will help the teachers to take attendance on click by using face-recognition technology.",
-        "shortDescription": "Automated Attendance System will help the teachers to take attendance on click by using face-recognition technology. I've developed the application as a final year project in my Graduation. The idea comes from taking attendance manually is quite a time taking activity and there is a chance of proxy means there will be a chance of marking the absent student present and present student absent also teachers spare 15 to 20 minutes from there 45 minutes of lecture to take attendance, so we decide to automate this process by creating a mobile application for teachers which will connect to an external camera or can use mobile's own camera to capture the picture of the class then rest of the process will be done by the application automatically, Our application can detect up to 40 faces with the accuracy of 98.009% also there is also an option provided so if there is any mismatch then it will be displayed so you can correct the results.",
-        "role": "Project Manger/Developer"
       }
     ]
   }

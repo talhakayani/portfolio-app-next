@@ -49,11 +49,11 @@ const IntroSocial = ({ intro }) => {
         <div>
           <Intro profile={intro.profile} />
         </div>
-        <div>
-          <SocialMedia socialMedia={intro.socialMedia} />
-        </div>
+        <SocialMedia socialMedia={intro.socialMedia} />
         <div style={{ gridColumn: 1, gridRow: 2 }}>{getDisplay(odd)}</div>
-        <div style={{ gridColumn: 2, gridRow: 2 }}> {getDisplay(even)}</div>
+        <div style={{ gridColumn: 2, gridRow: 2, position: 'relative' }}>
+          {getDisplay(even)}
+        </div>
       </div>
     </>
   );
