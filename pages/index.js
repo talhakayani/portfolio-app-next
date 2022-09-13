@@ -1,20 +1,14 @@
-import Head from 'next/head';
-import Intro from '../components/intro';
-import IntroSocial from '../components/introSocial';
-import SocialMedia from '../components/social-media';
-export const getStaticProps = async () => {
-  const res = await fetch('http://localhost:8000/intro');
-  const data = await res.json();
-  return {
-    props: { intro: data },
-  };
-};
+import Head from "next/head";
+import IntroSocial from "../components/introSocial";
+import data from "../data/db.json";
 
-export default function Home({ intro }) {
+export default function Home() {
+  const { intro } = data;
+  console.log("🚀 ~ file: index.js ~ line 14 ~ Home ~ intro", intro);
   return (
     <>
       <Head>
-        <title>{intro.profile.name}</title>
+        <title>{intro?.profile?.name}</title>
       </Head>
       <IntroSocial intro={intro} />
     </>
